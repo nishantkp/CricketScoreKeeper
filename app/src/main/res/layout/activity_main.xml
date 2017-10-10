@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="24dp"
                     android:layout_weight="2"
-
+                    android:background="@color/colorPrimary"
                     android:onClick="teamABallCount"
                     android:text="ball"
                     android:textAllCaps="true"
@@ -103,6 +103,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamAOneRun"
                 android:text="+1 Run"
                 android:textColor="#EEEEEE" />
@@ -113,6 +114,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamATwoRun"
                 android:text="+2 Run"
                 android:textColor="#EEEEEE" />
@@ -123,6 +125,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamAThreeRun"
                 android:text="+3 Run"
                 android:textColor="#EEEEEE" />
@@ -133,6 +136,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamAFourRun"
                 android:text="+4 Run"
                 android:textColor="#EEEEEE" />
@@ -143,6 +147,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamASixRun"
                 android:text="+6 Run"
                 android:textColor="#EEEEEE" />
@@ -153,6 +158,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamAOut"
                 android:text="wicket"
                 android:textAllCaps="true"
@@ -235,6 +241,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="24dp"
                     android:layout_weight="2"
+                    android:background="@color/colorPrimary"
                     android:onClick="teamBBallCount"
                     android:text="ball"
                     android:textAllCaps="true"
@@ -259,6 +266,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBOneRun"
                 android:text="+1 Run"
                 android:textColor="#EEEEEE" />
@@ -269,6 +277,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBTwoRun"
                 android:text="+2 Run"
                 android:textColor="#EEEEEE" />
@@ -279,6 +288,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBThreeRun"
                 android:text="+3 Run"
                 android:textColor="#EEEEEE" />
@@ -289,6 +299,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBFourRun"
                 android:text="+4 Run"
                 android:textColor="#EEEEEE" />
@@ -299,6 +310,7 @@
                 android:layout_marginBottom="3dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBSixRun"
                 android:text="+6 Run"
                 android:textColor="#EEEEEE" />
@@ -308,6 +320,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/colorPrimary"
                 android:onClick="teamBOut"
                 android:text="wicket"
                 android:textAllCaps="true"
@@ -322,7 +335,8 @@
         android:onClick="reset"
         android:text="reset"
         android:textAllCaps="true"
-        android:textColor="#EEEEEE" />
+        android:textColor="#EEEEEE"
+        android:background="@color/resetButtonColor"/>
 
     <TextView
         android:layout_width="wrap_content"
