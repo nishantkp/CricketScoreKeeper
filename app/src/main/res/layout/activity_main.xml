@@ -27,7 +27,7 @@
                 android:layout_margin="8dp"
                 android:fontFamily="sans-serif-medium"
                 android:text="Team A"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                 android:layout_margin="8dp"
                 android:fontFamily="sans-serif-medium"
                 android:text="Team B"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -336,10 +336,12 @@
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
         android:onClick="reset"
         android:text="reset"
+        android:textSize="16sp"
         android:textAllCaps="true"
-        android:textColor="#EEEEEE"
+        android:textColor="@android:color/white"
         android:background="@color/resetButtonColor"/>
 
     <TextView
